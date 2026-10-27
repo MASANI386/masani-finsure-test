@@ -1,0 +1,20 @@
+let lang=localStorage.getItem('mf-lang')||'hi';
+function setLang(l){
+ lang=l;
+ document.querySelectorAll('[data-hi]').forEach(el=>{
+   const v=l==='hi'?el.dataset.hi:el.dataset.en;
+   if(v) el.innerHTML=v;
+ });
+ localStorage.setItem('mf-lang',l);
+ const b=document.getElementById('langToggle');
+ if(b) b.textContent=l==='hi'?'EN / हिं':'हिं / EN';
+}
+setLang(lang);
+document.getElementById('langToggle')?.addEventListener('click',()=>setLang(lang==='hi'?'en':'hi'));
+const heroImg=document.querySelector('.character-wrap img');
+const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(heroImg && !reduce){
+ window.addEventListener('scroll',()=>{
+   heroImg.style.transform='translate3d(0,'+Math.min(30,window.scrollY*0.05)+'px,0)';
+ },{passive:true});
+}
