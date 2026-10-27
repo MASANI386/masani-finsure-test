@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masani Finsure - Premium Insurance & Fintech</title>
+<meta name="description" content="Motor, Health, Life, RTO, Solar, Used Cars - Bhopal">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/futuristic/futuristic.css">
+</head>
+<body>
+<div class="bg-orbs"><span></span><span></span><span></span></div>
+
+<header class="nav glass">
+  <div class="nav-inner">
+    <div class="logo"><div class="logo-mark">MF</div><span>Masani Finsure</span></div>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+      <a href="crm.html" class="btn-ghost">CRM</a>
+    </nav>
+    <button id="langToggle" class="btn-ghost small">EN / हिं</button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+<div class="hero-text">
+<div class="badge glass"><span class="dot"></span><span data-hi="भरोसेमंद बीमा सलाहकार" data-en="Trusted Advisor">भरोसेमंद बीमा सलाहकार</span></div>
+<h1 data-hi="भविष्य सुरक्षित, <span>आज से</span>" data-en="Secure Tomorrow, <span>Today</span>">भविष्य सुरक्षित, <span>आज से</span></h1>
+<p data-hi="मोटर, हेल्थ, लाइफ, RTO, सोलर और यूज्ड कार्स - एक ही जगह, तेज़ सर्विस, पूरा भरोसा।" data-en="Motor, Health, Life, RTO, Solar & Used Cars - One place, fast service, full trust.">मोटर, हेल्थ, लाइफ, RTO, सोलर और यूज्ड कार्स - एक ही जगह, तेज़ सर्विस, पूरा भरोसा।</p>
+<div class="cta-row"><a href="tel:+919999999999" class="btn primary">📞 Call Now</a><a href="https://wa.me/919999999999" class="btn glass-btn">💬 WhatsApp</a></div>
+<div class="trust glass"><b>10,000+</b> Clients • <b>24/7</b> Support • Bhopal</div>
+</div>
+<div class="hero-visual">
+<div class="character-wrap">
+<img src="assets/futuristic/character.webp" alt="Masani 3D Advisor" width="600" height="750">
+<div class="float-card c1 glass">Motor Insurance <small>2-min quote</small></div>
+<div class="float-card c2 glass">Health Shield <small>Cashless</small></div>
+<div class="float-card c3 glass">✓ Verified Claims</div>
+</div>
+</div>
+</section>
+
+<section id="services" class="services">
+<h2 data-hi="हमारी प्रीमियम सेवाएँ" data-en="Our Premium Services">हमारी प्रीमियम सेवाएँ</h2>
+<div class="grid">
+<a href="#contact" class="card glass"><i>🚗</i><h3>Motor Insurance</h3><p>Car, Bike, Commercial - Instant</p></a>
+<a href="#contact" class="card glass"><i>🏥</i><h3>Health Insurance</h3><p>Family & Individual - Cashless</p></a>
+<a href="#contact" class="card glass"><i>🛡️</i><h3>Life Insurance</h3><p>Term, ULIP, Savings - Security</p></a>
+<a href="#contact" class="card glass"><i>📄</i><h3>RTO Services</h3><p>RC transfer, License, Fitness</p></a>
+<a href="#contact" class="card glass"><i>☀️</i><h3>Solar Panels</h3><p>Subsidy assistance - Home & Business</p></a>
+<a href="#contact" class="card glass"><i>🚙</i><h3>Used Cars</h3><p>Verified cars - Insurance help</p></a>
+</div>
+</section>
+
+<section id="why" class="why glass">
+<div><h3>Why Masani Finsure?</h3><ul><li>✓ Glass-clear claim process</li><li>✓ Premium fintech experience</li><li>✓ Hindi/English support</li></ul></div>
+<div class="actions"><a href="tel:+919999999999" class="btn primary">Call Advisor</a></div>
+</section>
+
+<section id="contact" class="contact">
+<div class="contact-card glass">
+<h3>Contact / संपर्क</h3>
+<p>Call / WhatsApp - तेज़ response</p>
+<div class="cta-row"><a href="tel:+919999999999" class="btn primary">📞 +91 99999 99999</a><a href="https://wa.me/919999999999" class="btn glass-btn">WhatsApp</a></div>
+</div>
+</section>
+</main>
+
+<footer class="foot"><p>© 2026 Masani Finsure, Bhopal • <a href="crm.html">CRM Login</a></p></footer>
+<a class="fab call" href="tel:+919999999999">📞</a>
+<a class="fab wa" href="https://wa.me/919999999999">💬</a>
+<script src="assets/futuristic/futuristic.js"></script>
+</body>
+</html>
