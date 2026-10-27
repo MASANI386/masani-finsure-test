@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masani Finsure - Premium Insurance</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0A1931;--cyan:#00E5FF;--gold:#C9A86A;--glass:rgba(255,255,255,.08);--b:rgba(255,255,255,.14);--text:#EAF2FF;--muted:#A8B6D1}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(120% 120% at 20% 10%,#102A54 0%,#0A1931 60%,#060E20 100%);color:var(--text);font-family:'Outfit',sans-serif;overflow-x:hidden}
+.glass{background:var(--glass);backdrop-filter:blur(14px);border:1px solid var(--b);border-radius:16px}
+.nav{position:sticky;top:12px;margin:12px auto;max-width:1100px;z-index:10}.nav-inner{display:flex;justify-content:space-between;align-items:center;padding:12px 18px}
+.logo{display:flex;gap:10px;align-items:center;font-weight:700}.logo-mark{width:36px;height:36px;display:grid;place-items:center;background:linear-gradient(135deg,var(--cyan),var(--gold));color:#000;border-radius:10px;font-weight:800}
+.btn{padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600;display:inline-flex;transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(135deg,var(--cyan),#6DE7FF);color:#002}.gbtn{border:1px solid var(--b);color:var(--text)}
+.hero{max-width:1100px;margin:30px auto;display:grid;grid-template-columns:1.1fr .9fr;gap:20px;padding:0 18px;align-items:center}
+.hero h1{font-size:clamp(32px,5vw,56px);line-height:1.05;margin:12px 0}.hero h1 span{background:linear-gradient(135deg,var(--cyan),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:18px}
+.cta{display:flex;gap:12px;margin:18px 0;flex-wrap:wrap}
+.card-vis{position:relative;height:420px;background:radial-gradient(circle at center,rgba(0,229,255,.2),transparent 70%);border-radius:24px;display:grid;place-items:center}
+.circle{width:280px;height:280px;border-radius:50%;background:linear-gradient(135deg,var(--cyan),var(--gold));display:grid;place-items:center;font-size:90px;box-shadow:0 20px 60px rgba(0,229,255,.3);animation:float 4s ease-in-out infinite alternate}
+@keyframes float{from{transform:translateY(0)}to{transform:translateY(-14px)}}
+.float{position:absolute;padding:10px 14px;font-size:13px;font-weight:600;animation:float 5s infinite alternate}
+.f1{top:10%;right:5%}.f2{bottom:20%;left:0}.f3{bottom:5%;right:10%}
+.services{max-width:1100px;margin:60px auto;padding:0 18px}.services h2{text-align:center;font-size:32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:20px}
+.card{padding:20px;transition:.25s}.card:hover{transform:translateY(-6px);border-color:var(--cyan)}
+.why{max-width:1100px;margin:50px auto;padding:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.foot{text-align:center;padding:30px;opacity:.6}
+.fab{position:fixed;bottom:18px;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;text-decoration:none;z-index:20}.call{right:80px;background:var(--gold);color:#000}.wa{right:18px;background:#25D366;color:#fff}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.card-vis{order:-1;height:320px}.circle{width:220px;height:220px;font-size:70px}}
+</style>
+</head>
+<body>
+<header class="nav glass"><div class="nav-inner"><div class="logo"><div class="logo-mark">MF</div>Masani Finsure</div><div><a href="tel:+919999999999" style="color:var(--text);text-decoration:none">📞 Call</a></div></div></header>
+
+<main>
+<section class="hero">
+<div>
+<div class="glass" style="display:inline-flex;padding:6px 12px;font-size:13px">✦ भरोसेमंद बीमा सलाहकार</div>
+<h1>भविष्य सुरक्षित, <span>आज से</span></h1>
+<p>Motor, Health, Life, RTO, Solar, Used Cars - एक ही जगह, तेज़ सर्विस, पूरा भरोसा।</p>
+<div class="cta"><a href="tel:+919999999999" class="btn primary">📞 Call Now</a><a href="https://wa.me/919999999999" class="btn gbtn">WhatsApp</a></div>
+<div class="glass" style="padding:10px 14px;display:inline-block;font-size:13px;color:var(--muted)"><b>10,000+</b> Clients • <b>24/7</b> Support • Bhopal</div>
+</div>
+<div class="card-vis glass">
+<div class="circle">🛡️</div>
+<div class="float f1 glass">Motor - 2 min quote</div>
+<div class="float f2 glass">Health - Cashless</div>
+<div class="float f3 glass">✓ Verified</div>
+</div>
+</section>
+
+<section class="services" id="services">
+<h2>हमारी प्रीमियम सेवाएँ</h2>
+<div class="grid">
+<div class="card glass"><h3>🚗 Motor Insurance</h3><p style="color:var(--muted)">Car, Bike, Commercial</p></div>
+<div class="card glass"><h3>🏥 Health Insurance</h3><p style="color:var(--muted)">Family & Cashless</p></div>
+<div class="card glass"><h3>🛡️ Life Insurance</h3><p style="color:var(--muted)">Term, ULIP, Savings</p></div>
+<div class="card glass"><h3>📄 RTO Services</h3><p style="color:var(--muted)">RC, License, Fitness</p></div>
+<div class="card glass"><h3>☀️ Solar Panels</h3><p style="color:var(--muted)">Subsidy Help</p></div>
+<div class="card glass"><h3>🚙 Used Cars</h3><p style="color:var(--muted)">Verified Cars</p></div>
+</div>
+</section>
+
+<section class="why glass"><div><h3>Why Masani Finsure?</h3><p style="color:var(--muted)">Premium fintech experience, fast on mobile, Hindi/English support</p></div><div><a href="tel:+919999999999" class="btn primary">Call Advisor</a></div></section>
+</main>
+
+<footer class="foot">© 2026 Masani Finsure, Bhopal • Futuristic 3D Design Test</footer>
+<a class="fab call" href="tel:+919999999999">📞</a>
+<a class="fab wa" href="https://wa.me/919999999999">💬</a>
+</body>
+</html>
